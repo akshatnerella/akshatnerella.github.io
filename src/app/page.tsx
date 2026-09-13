@@ -10,7 +10,7 @@ export default async function Home() {
   const contributionsSvg = await getGithubContributionsSvg(
     siteConfig.githubUsername
   );
-  const tilesMeta = await getLinkMeta("https://tiles-five.vercel.app");
+  const tilesMeta = await getLinkMeta("https://logspaceai.vercel.app");
   const amazonMeta = await getLinkMeta(
     "https://www.amazon.com/Struggle-Smile-self-help-people-books-ebook/dp/B0F3WN97TG"
   );
@@ -50,36 +50,36 @@ export default async function Home() {
             <div className="profile-tiles">
               <a
                 className="profile-tile"
-                href="https://tiles-five.vercel.app"
+                href="https://logspaceai.vercel.app"
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <div className="profile-tile-title">
                   Tiles: Log your work, build in public
                 </div>
-                <div className="profile-tile-subtitle">tiles-five.vercel.app</div>
+                <div className="profile-tile-subtitle">logspaceai.vercel.app</div>
               </a>
               <a
                 className="profile-tile"
-                href="https://github.com/akshatnerella/github-dashboard"
+                href="https://tiles-five.vercel.app"
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <div className="profile-tile-title">
                   Turn git repos in beautiful dashboards
                 </div>
-                <div className="profile-tile-subtitle">github.com/akshatnerella/github-dashboard</div>
+                <div className="profile-tile-subtitle">tiles-five.vercel.app</div>
               </a>
               <a
                 className="profile-tile"
-                href="https://github.com/akshatnerella/conspiracy-ai"
+                href="https://conspiracyai.vercel.app"
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <div className="profile-tile-title">
                   Funny AI that generates conspiracy theories
                 </div>
-                <div className="profile-tile-subtitle">github.com/akshatnerella/conspiracy-ai</div>
+                <div className="profile-tile-subtitle">conspiracyai.vercel.app</div>
               </a>
             </div>
           </details>
@@ -253,36 +253,36 @@ export default async function Home() {
           <div className="profile-tiles">
             <a
               className="profile-tile"
-              href="https://tiles-five.vercel.app"
+              href="https://logspaceai.vercel.app"
               target="_blank"
               rel="noreferrer noopener"
             >
               <div className="profile-tile-title">
                 Tiles: Log your work, build in public
               </div>
-              <div className="profile-tile-subtitle">tiles-five.vercel.app</div>
+              <div className="profile-tile-subtitle">logspaceai.vercel.app</div>
             </a>
             <a
               className="profile-tile"
-              href="https://github.com/akshatnerella/github-dashboard"
+              href="https://tiles-five.vercel.app"
               target="_blank"
               rel="noreferrer noopener"
             >
               <div className="profile-tile-title">
                 Turn git repos in beautiful dashboards
               </div>
-              <div className="profile-tile-subtitle">github.com/akshatnerella/github-dashboard</div>
+              <div className="profile-tile-subtitle">tiles-five.vercel.app</div>
             </a>
             <a
               className="profile-tile"
-              href="https://github.com/akshatnerella/conspiracy-ai"
+              href="https://conspiracyai.vercel.app"
               target="_blank"
               rel="noreferrer noopener"
             >
               <div className="profile-tile-title">
                 Funny AI that generates conspiracy theories
               </div>
-              <div className="profile-tile-subtitle">github.com/akshatnerella/conspiracy-ai</div>
+              <div className="profile-tile-subtitle">conspiracyai.vercel.app</div>
             </a>
           </div>
         </details>
