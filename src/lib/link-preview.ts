@@ -69,7 +69,14 @@ export async function getLinkMeta(url: string): Promise<LinkMeta> {
     }
   })();
 
-  const faviconUrl = extractFavicon(html, url);
+  const faviconCandidate = extractFavicon(html, url);
+  const faviconUrl =
+    faviconCandidate &&
+    (await fetch(faviconCandidate, { method: "HEAD" })
+      .then((res) => res.ok)
+      .catch(() => false))
+      ? faviconCandidate
+      : null;
   const hostInitial = hostname.charAt(0).toUpperCase();
 
   return {
