@@ -1,1 +1,2 @@
-Just to redirect to my notion portfolio. This is a bypass since notion doesn't support custom DNS
+# nerellame
+This is the frontend build for my personal website, hosted at https://akshatnerella.github.io
